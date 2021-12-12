@@ -3,7 +3,7 @@ import express from 'express'
 const app = express()
 
 app.get('/', (req, res) => {
-    res.send('Hello from Nami Node 1')
+    res.send('Hello from Nami Node 1 reloaded!')
 })
 
 app.get('/hello', (req, res) => {
